@@ -32,7 +32,7 @@ function addCircle() {
 }
 
 function addLinks() {
-  allLinks = ["public/geocoding.html", "public/second_task.html", "public/cat.html"]
+  allLinks = ["public/geocoding.html", "public/yoda.html", "public/cat.html"]
   for (var i=0, l=links.length; i<l; i++) {
     link = document.createElement('a'),
     hover = document.createElement('span');
