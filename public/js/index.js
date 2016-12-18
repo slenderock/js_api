@@ -1,6 +1,7 @@
 var links = [{label: 'geocode', bg: '#c0392b', href: "11"},
-{label: 'second task', bg: '#16a085'},
-{label: 'kitty', bg: '#8e44ad'}];
+            {label: 'yoda', bg: '#16a085'},
+            {label: 'about number', bg: '#8e44ad'},
+            {label: 'kitty', bg: '#220057'}];
 var windowHeight = window.innerHeight;
 if(windowHeight === 0) windowHeight = 238;
 var radius = windowHeight*0.6,
@@ -32,7 +33,7 @@ function addCircle() {
 }
 
 function addLinks() {
-  allLinks = ["public/geocoding.html", "public/yoda.html", "public/cat.html"]
+  allLinks = ["public/geocoding.html", "public/yoda.html", "public/facts_about_number.html", "public/cat.html"]
   for (var i=0, l=links.length; i<l; i++) {
     link = document.createElement('a'),
     hover = document.createElement('span');
